@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category": "Menstrual Health",
+    "question": "What is a normal menstrual cycle length?",
+    "answer": "A typical cycle is 21–35 days, with bleeding lasting 2–7 days. Significant variation outside this range warrants a check-up with your doctor."
+  },
+  {
+    "id": 2,
+    "category": "Sexual Wellness",
+    "question": "Is vaginal discharge normal?",
+    "answer": "Yes — clear or white discharge is normal and helps keep the vagina clean. Changes in colour, smell, or consistency can indicate infection and should be evaluated."
+  },
+  {
+    "id": 3,
+    "category": "Contraception",
+    "question": "How effective is the contraceptive pill?",
+    "answer": "When taken correctly, the pill is 99% effective. With typical use it is about 91%. No contraceptive is 100% effective against STIs — condoms provide the best STI protection."
+  },
+  {
+    "id": 4,
+    "category": "Anatomy & Body",
+    "question": "Why do I sometimes feel pain during sex?",
+    "answer": "Pain during sex (dyspareunia) has many causes: insufficient lubrication, infection, endometriosis, or pelvic floor issues. Please consult a gynaecologist if this persists."
+  },
+  {
+    "id": 5,
+    "category": "Pregnancy & Fertility",
+    "question": "How can I improve my chances of getting pregnant?",
+    "answer": "Track your ovulation window (days 11–21 of your cycle), maintain a healthy BMI, avoid smoking and excessive alcohol, and consult your doctor if you have been trying for over 12 months."
+  },
+  {
+    "id": 6,
+    "category": "Menstrual Health",
+    "question": "Why are my periods painful?",
+    "answer": "Primary dysmenorrhoea (period pain without underlying disease) is very common and caused by prostaglandins. Secondary dysmenorrhoea has a cause such as endometriosis or fibroids. Both are treatable — please see your doctor."
+  }
+]
