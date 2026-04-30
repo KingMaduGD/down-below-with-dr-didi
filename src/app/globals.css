@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Dancing+Script:wght@600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #0B4E41;
+  --color-accent: #FCEE21;
+  --color-surface: #FAFAFA;
+  --color-text: #2D3436;
+  --color-primary-light: #1A6B5A;
+  --color-primary-muted: #E8F5F1;
+  --color-accent-dark: #D4C400;
+  --color-border: #E0E0E0;
+  --color-error: #E53E3E;
+  --color-success: #38A169;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(11,78,65,0.12);
+  --shadow-lg: 0 8px 32px rgba(11,78,65,0.16);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-signature: 'Dancing Script', cursive;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-heading);
+}
+
+.font-heading { font-family: var(--font-heading); }
+.font-body    { font-family: var(--font-body); }
+.font-signature { font-family: var(--font-signature); }
+
+/* Utility: clamp text to N lines */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Brand colour helpers */
+.bg-primary        { background-color: var(--color-primary); }
+.bg-primary-light  { background-color: var(--color-primary-light); }
+.bg-primary-muted  { background-color: var(--color-primary-muted); }
+.bg-accent         { background-color: var(--color-accent); }
+.bg-accent-dark    { background-color: var(--color-accent-dark); }
+.bg-surface        { background-color: var(--color-surface); }
+
+.text-primary       { color: var(--color-primary); }
+.text-primary-light { color: var(--color-primary-light); }
+.text-accent        { color: var(--color-accent); }
+.text-accent-dark   { color: var(--color-accent-dark); }
+
+.border-primary { border-color: var(--color-primary); }
+.border-accent  { border-color: var(--color-accent); }
+.border-border  { border-color: var(--color-border); }
+
+.hover\:bg-primary-light:hover { background-color: var(--color-primary-light); }
+.hover\:bg-accent-dark:hover   { background-color: var(--color-accent-dark); }
+.hover\:text-accent:hover      { color: var(--color-accent); }
+.hover\:text-primary:hover     { color: var(--color-primary); }
+.hover\:border-primary:hover   { border-color: var(--color-primary); }
+.hover\:text-primary-light:hover { color: var(--color-primary-light); }
+
+/* Max-width helpers */
+.max-w-container { max-width: 1280px; }
+.max-w-content   { max-width: 768px; }
+
+/* Focus ring */
+.focus\:ring-primary:focus { --tw-ring-color: var(--color-primary); }
